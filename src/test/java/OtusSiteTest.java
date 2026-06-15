@@ -61,7 +61,7 @@ public class OtusSiteTest {
   }
 
   @Test
-  void shouldCheckSubscriptionFlow() {
+  void subscriptionFlowBehavior() {
     subscriptionPage.open();
 
     subscriptionPage.checkSubscriptionsPresence();
